@@ -2,10 +2,10 @@ import java.util.List;
 
 public interface CocheCRUD {
 
-    void save (CocheCRUD cocheCRUD);
+    void save ();
 
-    List <CocheCRUD> findAll();
-    void delete (CocheCRUD cocheCRUD);
+    void findAll();
+    void delete ();
 
 
 }
